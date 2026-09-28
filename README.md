@@ -3,7 +3,7 @@
 A SQL-driven analysis of 5 years (2021–2025) of daily price data across 12 stocks spanning Technology, Energy, Consumer Staples, and Financials, built with Python, SQLite, and pandas.
 
 ## Pipeline
-
+ 
 Pulled OHLCV data via yfinance, reshaped from wide to long format, and loaded into a normalized two-table SQLite schema (prices, stocks) to avoid data redundancy. Sector and company metadata lives in one place, not duplicated across thousands of price rows.
 
 ## Key Findings
